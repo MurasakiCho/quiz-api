@@ -11,4 +11,13 @@ public class AnswerResponseDto {
 
   private String text;
 
+  private boolean correct;
+
+
+
+  /*public boolean isCorrect() {
+    return correct;
+  }*/
+
+
 }

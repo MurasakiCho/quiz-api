@@ -14,4 +14,6 @@ public interface AnswerMapper {
 
   List<AnswerResponseDto> entitiesToDtos(List<Answer> entities);
 
+  Answer dtoToEntity(AnswerResponseDto dto);
+
 }
