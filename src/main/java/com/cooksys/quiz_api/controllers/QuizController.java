@@ -54,11 +54,6 @@ public class QuizController {
     return quizService.addQuestion(id, questionRequestDto);
   }
 
-  /*@PatchMapping("/{id}/add")
-  public Question addQuestion (@PathVariable long id, @RequestBody QuestionRequestDto questionRequestDto) {
-    return quizService.addQuestion(id, questionRequestDto);
-  }*/
-
   @DeleteMapping("/{id}/delete/{questionId}")
   public QuestionResponseDto deleteQuestion (@PathVariable long id, @PathVariable long questionId) {
     return quizService.deleteQuestion(id, questionId);
